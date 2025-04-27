@@ -135,7 +135,7 @@ This directory contains information about the LM34 temperature sensor used in th
 
 For more details, refer to [LM34 Temperature Sensor Details](components/LM34_TEMP_SENSOR)
 
-### Female, Male to Male Jumper Wires 🚀
+### Female, Male to Male Jumper Wires 
 
 This directory contains information about the male to male jumper wires used in the project.
 
