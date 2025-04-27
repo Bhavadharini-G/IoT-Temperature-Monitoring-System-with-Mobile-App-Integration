@@ -1,4 +1,4 @@
-# IoT Temperature Monitoring System with Mobile App Integration 🌡️📱
+# IoT Temperature Monitoring System with Mobile App Integration 
 
 This project demonstrates interfacing temperature sensors with an ESP8266 (D1 R1) and displaying temperature data through Wi-Fi using the Blynk app. The project includes integration with an LM34 temperature sensor for accurate temperature readings.
 
@@ -35,7 +35,7 @@ This project demonstrates interfacing temperature sensors with an ESP8266 (D1 R1
 - ESP8266: Wemos ESP8266 Wi-Fi Board (D1 R1)
 - Sensor: LM34 Temperature Sensor
 
-## Setup Steps 🛠️
+## Setup Steps 
 
 Follow these steps to set up the circuit:
 
@@ -47,7 +47,7 @@ Connect the components as follows:
 - Connect pin D1 to indicate network and cloud connectivity.
 - Connect the LM34 temperature sensor to pin A0, GND, and 3.3V on the ESP8266 board.
 
-### 2. Components Required 🧰
+### 2. Components Required 
 
 You will need the following components:
 
@@ -78,7 +78,7 @@ You will need the following components:
 
 For detailed connections and pinouts, refer to the component directories in the `components` folder.
 
-## Connecting LEDs on Breadboard 🍞💡
+## Connecting LEDs on Breadboard 
 
 To connect LEDs on a breadboard, follow these steps:
 
@@ -89,9 +89,9 @@ To connect LEDs on a breadboard, follow these steps:
 
 For detailed specifications and connection diagrams of LEDs, refer to the LED component directory in the `components` folder.
 
-## Components 🧩
+## Components 
 
-### Wemos ESP8266 Wi-Fi Board (D1 R1) 💡
+### Wemos ESP8266 Wi-Fi Board (D1 R1) 
 
 This directory contains information about the ESP8266 microcontroller board.
 
@@ -109,7 +109,7 @@ This directory contains information about the ESP8266 microcontroller board.
 
 For more details, refer to [Wemos ESP8266 Wi-Fi Board (D1 R1) Details](components/ESP8266)
 
-### LED 💡
+### LED 
 
 This directory contains information about the LEDs used in the project.
 
@@ -119,7 +119,7 @@ This directory contains information about the LEDs used in the project.
 
 For more details, refer to [LED Details](components/LED)
 
-### LM34 Temperature Sensor 🌡️
+### LM34 Temperature Sensor 
 
 This directory contains information about the LM34 temperature sensor used in the project.
 
@@ -141,7 +141,7 @@ This directory contains information about the male to male jumper wires used in 
 
 For more details, refer to [Jump Wires Details](components/JUMP_WIRE)
 
-### Breadboard 🍞
+### Breadboard 
 
 This directory contains information about the breadboard used in the project.
 
@@ -155,13 +155,13 @@ This directory contains information about the breadboard used in the project.
 
 For more details, refer to [Breadboard Details](components/BREAD_BOARD)
 
-## Arduino Software and Blynk App 📱
+## Arduino Software and Blynk App 
 
 ### Arduino Software
 
 Before uploading the code to the ESP8266 board, make sure you have the Arduino software installed. You can download it from the [Arduino website](https://www.arduino.cc/en/software).
 
-# Blynk App Setup 📱
+# Blynk App Setup 
 
 Blynk is a platform that allows you to build IoT applications easily. Follow these steps to set up Blynk with your ESP8266 project:
 
@@ -206,7 +206,7 @@ Blynk is a platform that allows you to build IoT applications easily. Follow the
 3. Use the widgets to control the LEDs, monitor connectivity, and view temperature readings.
 4. Test different scenarios and functionalities to ensure proper operation.
 
-## Screenshots 📸
+## Screenshots 
 
 <div>
   <img src="./image/output.png" alt="Output" width="830">
@@ -233,7 +233,7 @@ Blynk is a platform that allows you to build IoT applications easily. Follow the
   <img src="./image/image6.png" alt="Mobile Screenshot 6" width="400" style="float: right; margin-left: 20px;">
 </div>
 
-## License 📝
+## License 
 
 This project is licensed under the [MIT License](LICENSE.md). Feel free to use, modify, and distribute this project for educational purposes.
 
